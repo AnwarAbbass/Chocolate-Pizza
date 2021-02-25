@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+header{
+    position: relative;
+}
+ul{display:inline;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    }
+#float-right{
+    float: right;
+}
+
+#paddingtoright {
+    margin-left: 10px;
+}
+#highline{
+    line-height: 0.5px;
+}
+#backgroundrepeat{
+    background-image: url(img/hr-img.png) ;
+    background-repeat: repeat-x;
+}
+#fullWidth{
+    width: 100%;
+}
+#alighnleft{
+    text-align: left;
+}
+p{
+    font-size: 20px;
+    font-style: italic bold;
+}
